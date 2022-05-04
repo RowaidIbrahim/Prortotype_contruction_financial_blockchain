@@ -1,4 +1,4 @@
 # Prortotype_contruction_financial_blockchain
-Run the python code
-connect the nodes by URL using postman
-Run blockchain.exe file
+# 1 Run the python code
+# 2 connect the nodes by URL using postman
+# 3 Run blockchain.exe file
