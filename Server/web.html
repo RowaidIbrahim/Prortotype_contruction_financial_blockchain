@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<center><h1>Login form</h1></center>
+
+
+<form id = "myform" method = "post">
+id: <input type = "text" id = "user_id" name = "user_id">   
+data: <input type = "text" id = "user_data" name = "user_data">  
+<input type = "button" id = "submit" value = "submit" onClick='submitform()'>
+</form>
+
+<script language ="javascript" type = "text/javascript" >
+function submitform() {
+    var url = '/users/' + $('#user_id').val();
+    $('#myform').attr('action', url);
+    var data = JSON.stringify({
+        "userdata": $('#user_data').val()
+    })
+    $('<input type="hidden" name="json"/>').val(data).appendTo('#myform');
+    $("#myform").submit();
+}
+
+</script>
+
+</body>
+</html>
+
+
