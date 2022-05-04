@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Ibrahim"
+  given-names: "Rowaid"
+  orcid: "https://orcid.org/0000-0002-2472-8034"
+- family-names: "Harby"
+  given-names: "Ahmed"
+title: "Prototype Contruction Financail Blockchain"
+version: 0.1.0
+doi: 10.5281/zenodo.6518974
+date-released: 2022-5-4
+url: "https://doi.org/10.5281/zenodo.6518974"
